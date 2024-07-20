@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap demo</title>
+  <link href="nav.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/stroke" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/rosmatika" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header">
+    <div class="container header-container d-flex justify-content-between flex-wrap p-1">
+      <div class="header-items mt-1">
+        <span class="ph-number me-2"><i class="ri-phone-line me-1"></i>+977 9810422143</span>
+        <span><i class="ri-mail-line me-1"></i>rochak@softechfoundation</span>
+      </div>
+      <div class="social-media-icons">
+        <i class="ri-facebook-line"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+        <i class="ri-github-fill"></i>
+      </div>
+    </div>
+  </section>
+    <nav class="navbar navbar-expand-lg p-0 m-0">
+      <div class="container navbar-container">
+        <a class="navbar-brand" href="">
+          <div class="logo-img">
+            <img src="images/same-bg-logo.png" width="100" height="103">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-5">
+            <a class="nav-link  mx-3 active" aria-current="page" href="#scrollspyHeading1">Home</a>
+            <a class="nav-link  mx-3" href="#scrollspyHeading2">Destination</a>
+            <a class="nav-link  mx-3" href="#">Product</a>
+            <a class="nav-link  mx-3" href="#">Trekking</a>
+            
+
+              <div class="btn-group collapse navbar-collapse mx-3" id="navbarNavAltMarkup" role="group">
+                <button type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li><a class="dropdown-item" href="#">Pricing</a></li>
+                  <li><a class="dropdown-item" href="#">Faq's</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+              </div>
+
+                <i class="fa-solid fa-bag-shopping fs-4 ms-5 mt-1"></i>
+        
+                <i class="fa fa-search fs-4 ms-3 mt-1"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+<section class="slider-container p-0 mt-0">
+  <div class="sliderrr">
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators c-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner  c-main-inner">
+        <div class="carousel-item c-item active">
+          <img src="images/travel-slider-1.webp" alt="Los Angeles" class="d-block c-image w-100">
+          <div class="norway-container position-absolute mx-auto text-center">
+            <div class="card text-center bg-transparent border-0">
+              <div class="card-body card-ko-body">
+                <h2 class="make-your">Make Your</h2>
+                <h1 class="tour-amazing">Tour Amazing</h1>
+                <p class="tour-amazing-p">Tick off two of Norway’s bucket list train<br> journeys. Drift past fjords and glaciers, ascending the steepest.</p>
+                <button class="call_to_action_button tour-amazing-button px-4 py-2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/travel-slider-2.webp" alt="Chicago" class="d-block c-image w-100">
+          <div class="norway-container position-absolute mx-auto text-center">
+            <div class="card text-center bg-transparent border-0">
+              <div class="card-body card-ko-body">
+                <h2 class="black-friday">Black Friday</h2>
+                <h1 class="friday-off">50% off</h1>
+                <p class="friday-off-p">Tick off two of Norway’s bucket list train<br> journeys. Drift past fjords and glaciers, ascending the steepest.</p>
+                <button class="call_to_action_button friday-off-button px-4 py-2">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/slider-3.jpg" alt="New York" class="d-block c-image w-100">
+          <div class="norway-container position-absolute mx-auto text-center">
+            <div class="card text-center bg-transparent border-0">
+              <div class="card-body card-ko-body">
+                <h2>Black Friday</h2>
+                <p>Tick off two of Norway’s bucket list train<br> journeys. Drift past fjords and glaciers, ascending the steepest.</p>
+                <button class="call_to_action_button px-4 py-2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/travel-slider-4.jpeg" alt="New York" class="d-block c-image w-100">
+          <div class="norway-container position-absolute mx-auto text-center">
+            <div class="card text-center bg-transparent border-0">
+              <div class="card-body card-ko-body">
+                <h2>Norway</h2>
+                <p>Tick off two of Norway’s bucket list train<br> journeys. Drift past fjords and glaciers, ascending the steepest.</p>
+                <button class="call_to_action_button px-4 py-2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev span-button-1" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next span-button-1" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- <-------accordion about us----- -->
+
+<section class="section-3" id="scrollspyHeading2">
+<div class="container justify-content-center d-flex w-50">
+  <div class="card border-0 card-center"></div>
+    <div class="card-body cb-class text-center px-sm-5 py-3">
+      <h5 class="card-title ctt-class py-md-2">ABOUT US</h5>
+      <p class="card-text c-txt-class">Embark on a journey with us to explore the world's diverse landscapes and cultures. Join in on exciting adventures, creating cherished memories that will stay with you forever.</p>
+    </div>
+  </div>
+</div>
+<div class="container d-flex about-us mt-5 gap-4">
+  <div class="card border-0 bg-transparent abt-c-image-container">
+    <img src="images/lets-travel-2.jpeg" class="card-img-top border-0 abt-us-img-1" alt="...">
+  </div>
+
+
+  <div class="accordion w-100 accordion-flush mt-1 accor-container pt-4 pb-4" id="accordionFlushExample">
+    <p class="fs-4 exp-ur-j-p text-light">Explore Your Journey</p>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Travel Tips - Your Guide to Hassle-Free Travel
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Destination Guides provide comprehensive information about travel destinations, including attractions, landmarks, and natural wonders. They offer practical details such as best times to visit, transportation options, cultural norms, and recommended itineraries to help travelers plan and enhance their experiences.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Destination Guides - Navigate the World's Wonders
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Travel Tips offer practical advice to make travel easier, safer, and more enjoyable. They cover packing essentials, health precautions, visa requirements, language tips, local customs, and money-saving strategies, ensuring travelers are well-prepared and have a smooth journey.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Travel Accommodations - Choosing the Perfect Stay
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Travel Accommodations cover diverse lodging options like hotels, resorts, vacation rentals, and hostels. They provide details on amenities, room types, locations, reviews, pricing, and booking options, helping travelers find suitable accommodations that meet their preferences and budget.</div>
+      </div>
+    </div>
+    <button class="read_more_button mt-4 px-4 py-2">Read more</button>
+  </div>
+  
+</div>
+</section>
+
+<!-- <-----why-us-section----- -->
+
+<section class="why-us-section">
+
+  <div class="container justify-content-center d-flex w-100">
+    <div class="card border-0 card-center"></div>
+      <div class="card-body cb-class text-center px-sm-5 py-3">
+        <h1 class="card-title py-md-0 contact_title">WHY US?</h1>
+        <hr class="line-below-contact mx-auto">
+        <p class="card-text c-txt-class why-us-ko-p">Make your journey worthwhile by choosing to travel with a local company. Expert travel advice, unique itineraries and happy trips that are a once-in-a-lifetime experience. Enjoy flexible private tours and tailor-made personalized packages that matches your idea of your perfect holiday.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container why-us-container gap-4 d-flex py-md-4">
+    <div class="card why-us-card border-0 text-center" style="width: 19rem;">
+      <img src="images/travel-expert.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Travel Expert Since 2000</h5>
+        <p class="card-text">EagleGo offers expertly planned travel experiences across Nepal, Norway, Switzerland, the USA, and beyond for over two decades.</p>
+      </div>
+    </div>
+    <div class="card why-us-card border-0 text-center" style="width: 19rem;">
+      <img src="images/trekking-safety.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Trekking Safety</h5>
+        <p class="card-text">Safety is our top priority. Our expertly planned itineraries and licensed guides ensure your security in mountain environments.</p>
+      </div>
+    </div>
+    <div class="card why-us-card border-0 text-center" style="width: 19rem;">
+      <img src="images/24x7.webp" class="card-img-top border-bottom-1" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">24/7 International Support</h5>
+        <p class="card-text">We EagleGo are always available 24/7 to assist with any inquiries or emergencies, responding promptly to emails and voicemails.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <------------events section------------ -->
+
+<section class="section-4 py-md-5">
+<div class="container justify-content-center d-flex w-50 text-justify">
+  <div class="card card-main border-0 "></div>
+    <div class="card-body cb-class text-center  px-5">
+      <h5 class="card-title ctt-class py-md-2 ">EVENTS</h5>
+      <p class="card-text c-txt-class ">Discover and participate in diverse cultural events and festivals across the globe.From music festivals to local traditions, immerse yourself in unique experiences that enrich your travel journey.</p>
+    </div>
+  </div>
+</div>
+
+  <div class="container events-container d-flex gap-3 mt-5 flex-wrap ">
+
+    <div class="card border-0 me-3 shadow-card w-45" style="width: 18rem;">
+      <img src="images/pokhara.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-light">
+        <h5 class="card-title">Nepal</h5>
+        <div class="main-content">
+          <p class="card-text">
+            Nepal is a land of Himalayan peaks, vibrant culture, serene valleys, and majestic mountains.
+          </p>
+        </div>
+        <button class="btn see-more-btn">See More</button>
+      </div>
+    </div>
+
+    <div class="card border-0 me-3 shadow-card" style="width: 18rem;">
+      <img src="images/norway.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-light">
+        <h5 class="card-title">Norway</h5>
+        <div class="main-content">
+          <p class="card-text">
+            Norway is renowned for its stunning fjords, Northern Lights, and vibrant coastal cities.
+            <span class="additional-content" style="display: none;">
+              Experience the thrill of hiking through majestic landscapes and cruising along picturesque fjords.
+          Discover rich Viking history, cultural festivals, and local cuisine that make Norway unforgettable.
+            </span>
+          </p>
+        </div>
+        <button class="btn see-more-btn">See More</button>
+      </div>
+    </div>
+
+    <div class="card border-0 me-3 shadow-card" style="width: 18rem;">
+      <img src="images/switzerland.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-light">
+        <h5 class="card-title">Switzerland</h5>
+        <div class="main-content">
+          <p class="card-text">
+            Switzerland offers pristine Alpine scenery, charming cities, and world-class skiing resorts.
+            <span class="additional-content" style="display: none;">
+              Ski in the Swiss Alps, cruise on crystal-clear lakes, and explore historic towns like Zurich and Lucerne.
+          Indulge in Swiss chocolate, cheese fondue, and vibrant cultural festivals year-round.
+            </span>
+          </p>
+        </div>
+        <button class="btn see-more-btn">See More</button>
+      </div>
+    </div>
+
+  </div>
+
+  
+</section>
+
+<!-- <-------services-section--- -->
+
+<section class="section-5 mt-5">
+  <div class="container justify-content-center d-flex w-50 ">
+    <div class="card card-main border-0"></div>
+      <div class="card-body cb-class text-center px-5">
+        <h5 class="card-title ctt-class py-md-2">Services</h5>
+        <p class="card-text c-txt-class">Discover and participate in diverse cultural events and festivals across the globe.From music two local traditions, immerse in unique experiences enrich your journey.</p>
+      </div>
+    </div>
+  </div>
+  <div class="services-bg-class py-3 mt-4">
+    <div class="container text-center mt-5 col-row-ko-container">
+      <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+        <div class="col col-ko-hover">
+          <div class="p-2 pb-5">
+            <i class="ri-compass-3-fill fs-1"></i>
+            <p class="fs-5"><span class="num" data-val="200">000</span> Holiday Packages</p>
+          </div>
+        </div>
+        <div class="col col-ko-hover">
+          <div class="p-2">
+            <i class="ri-star-line fs-1"></i>
+            <p class="fs-5"><span class="num" data-val="400">000</span> Positive Reviews</p>
+          </div>
+        </div>
+        <div class="col col-ko-hover">
+          <div class="p-2 flex-wrap">
+            <i class="ri-earth-fill fs-1"></i>
+            <p class="fs-5"><span class="num" data-val="100">000</span> Destinations</p>
+          </div>
+        </div>
+        <div class="col col-ko-hover">
+          <div class="p-2">
+            <i class="ri-heart-pulse-fill fs-1"></i>
+            <p class="fs-5"><span class="num" data-val="70">000</span> 50+ Adventerous Activities</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <-----pricing-------- -->
+
+<section class="section-6 my-5 pb-5">
+<div class="container justify-content-center d-flex w-50">
+  <div class="card card-main border-0"></div>
+    <div class="card-body cb-class text-center py-4 px-5">
+      <h5 class="card-title ctt-class py-md-2">Pricing</h5>
+      <p class="card-text c-txt-class ">Discover and participate in diverse cultural events and festivals across the globe.From music festivals to local traditions, immerse yourself in unique experiences that enrich your travel journey.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container pricing-div-class d-flex mt-5 gap-4">
+  <div class="card package-ko-card border-0 pt-2 pb-4 px-2" style="width: 18rem;">
+    <div class="card-body package-ko-body">
+      <h3 class="card-title package-ko-name mb-3">Basic Package</h3>
+      <h1><sup>$</sup>499 <sub>/ month</sub></h1>
+    <ul>
+      <li><i class="ri-check-line"></i> 3 Days, 2 Nights</li>
+      <li><i class="ri-check-line"></i> 4-Star H-Accommodation</li>
+      <li><i class="ri-check-line"></i> Free Breakfast</li>
+      <li><i class="ri-check-line"></i> City Tour</li>
+      <li><i class="ri-close-line"></i><span> Airport Pickup</span></li>
+    </ul>
+    <a href="#" class="buy_now_button">Book Now</a>
+    </div>
+  </div>
+  <div class="card package-ko-card pt-2 pb-4 px-3" style="width: 18rem;">
+    <div class="card-body package-ko-body">
+      <h3 class="card-title package-ko-name mb-3">Standard Package</h3>
+      <h1><sup>$</sup>699 <sub>/ month</sub></h1>
+    <ul>
+      <li><i class="ri-check-line"></i> 5 Days, 4 Nights</li>
+      <li><i class="ri-check-line"></i> 5-Star H-Accommodation</li>
+      <li><i class="ri-check-line"></i> Free Breakfast & Dinner</li>
+      <li><i class="ri-check-line"></i> City and Nature Tour</li>
+      <li><i class="ri-check-line"></i> Airport Pickup</li>
+      <li><i class="ri-close-line"></i><span> Full Guided Tour</span></li>
+    </ul>
+    <a href="#" class="buy_now_button">Book Now</a>
+    </div>
+  </div>
+  <div class="card package-ko-card  pt-2 pb-4 px-3" style="width: 18rem;">
+    <div class="card-body package-ko-body">
+      <h3 class="card-title package-ko-name mb-3">Luxury Package</h3>
+      <h1><sup>$</sup>999 <sub>/ month</sub></h1>
+    <ul>
+      <li><i class="ri-check-line"></i> 7 Days, 6 Nights</li>
+      <li><i class="ri-check-line"></i> Luxury R-Accommodation</li>
+      <li><i class="ri-check-line"></i> All Meals Included</li>
+      <li><i class="ri-check-line"></i> Airport Transfer</li>
+      <li><i class="ri-check-line"></i> Full Guided Tour</li>
+      <li><i class="ri-check-line"></i> Spa Access</li>
+      <li><i class="ri-check-line"></i> Airport Drop</li>
+    </ul>
+    <a href="#" class="buy_now_button">Book Now</a>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<div class="container overflow-hidden text-start">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 gx-1">
+    <div class="col my-3 mx-0">
+      <div class="card border-0">
+        <div class="card-body shadow-card card-ko-relative">
+          <img src="images/pokhara.jpeg" class="card-img-top col-md-12 mb-3" alt="...">
+          <div class="triangle-topright"><span>new</span></div>
+          <div class="shadow-card p-2">
+          <h5 class="card-title text-light">Card Title 3</h5>
+          <div class="main-content text-light">
+            <p class="card-text">
+              Norway is renowned for its stunning fjords, Northern Lights, and vibrant coastal cities.
+              <span class="additional-content" style="display: none;">
+                Experience the thrill of hiking through majestic landscapes and cruising along picturesque fjords.
+                Discover rich Viking history, cultural festivals, and local cuisine that make Norway unforgettable.
+              </span>
+            </p>
+          </div>
+          <button class="btn see-more-btn">See More</button>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6 col-sm-6 my-3"> <!-- Adjusted col-md-12 and col-sm-6 classes here -->
+      <div class="card border-0">
+        <div class="card-body shadow-card">
+          <img src="images/switzerland.jpeg" class="card-img-top col-md-12 mb-3" alt="...">
+          <div class="shadow-card p-2">
+            <h5 class="card-title text-light">Card Title 3</h5>
+            <div class="main-content text-light">
+              <p class="card-text">
+                Norway is renowned for its stunning fjords, Northern Lights, and vibrant coastal cities.
+                <span class="additional-content" style="display: none;">
+                  Experience the thrill of hiking through majestic landscapes and cruising along picturesque fjords.
+                  Discover rich Viking history, cultural festivals, and local cuisine that make Norway unforgettable.
+                </span>
+              </p>
+            </div>
+            <button class="btn see-more-btn">See More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-md-12 col-sm-12 my-3">
+      <div class="card border-0">
+        <div class="card-body shadow-card">
+          <img src="images/norway.jpeg" class="card-img-top col-md-12 mb-3" alt="...">
+          <div class="shadow-card p-2">
+
+          <h5 class="card-title text-light">Card Title 3</h5>
+          <div class="main-content text-light">
+            <p class="card-text">
+              Norway is renowned for its stunning fjords, Northern Lights, and vibrant coastal cities.
+              <span class="additional-content" style="display: none;">
+                Experience the thrill of hiking through majestic landscapes and cruising along picturesque fjords.
+                Discover rich Viking history, cultural festivals, and local cuisine that make Norway unforgettable.
+              </span>
+            </p>
+          </div>
+          <button class="btn see-more-btn">See More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+  let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
+</script>
+
+<!-- <----script-for-see-more-button-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+  document.querySelectorAll('.see-more-btn').forEach(button => {
+button.addEventListener('click', function() {
+  var mainContent = this.parentElement.querySelector('.main-content');
+  var additionalContent = mainContent.querySelector('.additional-content');
+
+  if (additionalContent.style.display === 'none') {
+    additionalContent.style.display = 'inline'; // Display additional content
+    this.textContent = 'See Less'; // Change button text to "See Less"
+  } else {
+    additionalContent.style.display = 'none'; // Hide additional content
+    this.textContent = 'See More'; // Change button text to "See More"
+  }
+});
+});
+</script>
+
+</body>
+</html>
+
+
+
